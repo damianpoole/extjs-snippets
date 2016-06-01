@@ -2,13 +2,18 @@
   "name": "extjs-snippets",
   "main": "./lib/extjs-snippets",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "A bunch of snippets for use with Extjs and Siesta",
   "keywords": [
+      "extjs",
+      "siesta",
+      "javascript",
+      "snippets",
+      "snippet"
   ],
   "activationCommands": {
     "atom-workspace": "extjs-snippets:toggle"
   },
-  "repository": "https://github.com/atom/extjs-snippets",
+  "repository": "https://github.com/damianpoole/extjs-snippets",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
