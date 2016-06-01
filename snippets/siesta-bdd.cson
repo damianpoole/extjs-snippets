@@ -1,0 +1,25 @@
+'.source.js'
+    'Siesta expect to be':
+        'prefix': 'seb'
+        'body': """
+            t.expect($1).toBe($2);
+            $3
+        """
+    'Siesta expect equals':
+        'prefix': 'see'
+        'body': """
+            t.expect($1).toEqual($2);
+            $3
+        """
+    'Siesta expect true':
+        'prefix': 'set'
+        'body': """
+            t.expect($1).toBeTruthy();
+            $2
+        """
+    'Siesta expect false':
+        'prefix': 'sef'
+        'body': """
+            t.expect($1).toBeFalsy();
+            $2
+        """

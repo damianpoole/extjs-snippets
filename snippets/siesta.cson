@@ -1,0 +1,22 @@
+'.source.js':
+    'Siesta Describe':
+        'prefix': 'sdesc'
+        'body': """
+            $1describe(\'$2\', function (t) {
+                $3
+            });
+        """
+    'Siesta t.it':
+        'prefix': 'sit'
+        'body': """
+            t.it(\'$1\', function (t) {
+                $2
+            });
+        """
+    'Siesta requireOk':
+        'prefix': 'srq'
+        'body': """
+            t.requireOk($1, function () {
+                $2
+            });
+        """
