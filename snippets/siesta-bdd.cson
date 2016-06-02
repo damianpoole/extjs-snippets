@@ -1,4 +1,4 @@
-'.source.js'
+'.source.js':
     'Siesta expect to be':
         'prefix': 'seb'
         'body': """
