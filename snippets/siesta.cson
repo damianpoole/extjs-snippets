@@ -20,3 +20,17 @@
                 $2
             });
         """
+    'Siesta beforeEach':
+        'prefix': 'sbe'
+        'body': """
+            t.beforeEach(function () {
+                $1
+            });
+        """
+    'Siesta afterEach':
+        'prefix': 'sae'
+        'body': """
+            t.afterEach(function () {
+                $1
+            });
+        """
