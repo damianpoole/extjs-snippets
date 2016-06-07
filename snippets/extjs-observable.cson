@@ -1,0 +1,22 @@
+'.source.js':
+    'mon':
+        'prefix': 'mon'
+        'body': 'mon(${1:item}, \'${2:ename}\', ${3:function});'
+    'mun':
+        'prefix': 'mun'
+        'body': 'mun(${1:item}, \'${2:ename}\');'
+    'relayEvents':
+        'prefix': 'relayEvents'
+        'body': 'relayEvents(${1:origin}, [\'${2:events}\'], \'${3:prefix}\');'
+    'fireEvent':
+        'prefix': 'fireEvent'
+        'body': 'fireEvent(\'${1:eventName}\', ${2:args});'
+    'hasListener':
+        'prefix': 'hasListener'
+        'body': 'hasListener(\'${1:eventName}\');'
+    'resumeEvent':
+        'prefix': 'resumeEvent'
+        'body': 'resumeEvent(\'${1:eventName}\');'
+    'suspendEvent':
+        'prefix': 'suspendEvent'
+        'body': 'suspendEvent(\'${1:eventName}\');'
