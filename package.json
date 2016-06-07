@@ -1,7 +1,7 @@
 {
   "name": "extjs-snippets",
   "main": "./lib/extjs-snippets",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A bunch of snippets for use with Extjs and Siesta",
   "keywords": [
     "extjs",
